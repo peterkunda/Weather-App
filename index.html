@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="fontawesome/css/all.css">
+  <link rel="stylesheet" href="style css. footer.css">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="main-content">
+      <div class="searchContainer">
+        <input id="search" type="search" />
+        <button id="searchButton"><i class="fas fa-search"></i></button>
+      </div>
+      <div class="currentForcast">
+        <div class="currentForcastInfo">
+          <img id="currentIcon" src="Photos/113.webp">
+          <div>
+            <span id="dayTemperature">0</span>
+          </div>
+          <div>
+            <span id="currentTemperatureUnit">°C</span>
+          </div>
+          <div class="currentConditions">
+            <div>Precipitation:<span id="precipitation"></span></div>
+            <div>Humidity:<span id="humidity"></span></div>
+            <div>Wind:<span id="wind"></span></div>
+          </div>
+        </div>
+        <div class="currentForcastDate">
+          <div id="cityName">Weather</div>
+          <div id="today">Weekday</div>
+          <div id="condition">Condition</div>
+        </div>
+      </div>
+      <div class="dailyForcastContainer">
+        <div class="dailyForcast">
+          <div class="weekday">Fri</div>
+          <div><img id="currentIcon" src="Photos/113.webp" /></div>
+          <div class="maxMinTemp">
+            <span class="temp">25</span>
+            <span class="temp">19</span>
+          </div>
+        </div>
+      </div>
+
+      <div id="alert"></div>
+    </div>
+    <footer>
+      <div class="footer-content">
+          <h3>Weather App</h3>
+          <p></p>
+          <ul class="socials">
+            <li><a href="#"><i class="http://www.icuzambia.net">ICU Zambia</i></a></li>
+            <li><a href="#"><i class="https://www.zrdc.org">ZRDC</i></a></li>
+              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+              <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+              <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+          </ul>
+      </div>
+      <div class="footer-bottom">
+        <p>copyright &copy;All Rights Reserved. Designed and Maintained by <span>Peter Kunda, 2309870905</span></p>
+      </div>
+  </footer>
+  </div>
+
+  <script src="main.js"></script>
+
+</body>
+
+</html>
